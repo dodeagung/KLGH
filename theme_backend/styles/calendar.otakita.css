@@ -1,0 +1,128 @@
+
+.calendar-container {
+	height: 600px;
+	width: 600px;
+}
+
+.calendar-header {
+	float:left;
+}
+.navigation {
+	float:right;
+	color:CornflowerBlue;
+}
+
+.table-calendar {
+	margin : 0 auto;
+	table-layout : fixed;
+	width : 100%;
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+.table-calendar .table-calendar-header {
+	padding: 6px 6px;
+	color: #aaaaaa;
+	font-size:12px;
+	transition: opacity 0.2s linear 0s;
+}
+
+td.cal_row {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select:none;
+	user-select:none;
+	-o-user-select:none;
+	height:75px;
+	border:solid 1px #aaa;
+}
+
+.containingBlock {
+	display: table;
+	height: 100%;
+	position: relative;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.day {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 12px;
+	color: #666;
+	padding-top:3px;
+	padding-right:3px;
+}
+
+.day-in-out{
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 12px;
+	color: white;
+	padding-top:3px;
+	padding-right:3px;
+}
+
+.price {
+	font-size: 12px;
+	color:#273643;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	padding-bottom:3px;
+	padding-right:3px;
+}
+
+.price-in-out {
+	font-size: 12px;
+	color:white;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	padding-bottom:3px;
+	padding-right:3px;
+}
+
+.calendar-active {
+	cursor:pointer;
+}
+
+.calendar-nav{
+	cursor:pointer;
+}
+
+.calendar-booked {
+	background-color:#273643;
+}
+
+.calendar-booked-in{
+	background-color:#00CC77;
+}
+
+.calendar-booked-out {
+	background-color:#0099CC;
+}
+.calendar-blocked {
+	background-color:#CC5200;
+}
+
+.calendar-disabled {
+	background-color:Silver;
+
+}
+
+.calendar-renovation {
+	background-color:#A30000;
+
+}
+
+.calendar-expired {
+	background-color:#ddd;
+
+}
+
+.calendar-selected {
+	border : solid 1px #f00;
+}

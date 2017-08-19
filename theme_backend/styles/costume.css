@@ -1,0 +1,191 @@
+canvas#myChart{
+	width:100%!important;
+}
+
+.header-content { 
+	background: white; 
+}
+
+.content-page { 
+	border: 1px solid white; 
+}
+
+.sidebar {
+	background: white !important;
+		
+}
+
+.newnav a { 
+	border-left: 4px solid white;
+	color:#585A63!important;
+}
+
+.inner-sidebar-links a { 
+	background: white;
+	border-left: 4px solid white;
+}
+
+.plus-sidebar {
+	color:#585A63!important;
+}
+
+.newnav li .active {
+    border-left: 4px solid rgba(9, 13, 37, 0.99);
+}
+
+.newnav a:hover {
+    border-left: 4px solid rgba(9, 13, 37, 0.99);
+}
+
+.dashboard-window{
+	border-left: none!important;	
+}
+
+.fileContainer {
+    overflow: hidden;
+    position: relative;
+	border: 1px solid #CCCCCC;
+	background-color:#F3F3F3;
+}
+.fileContainer span{
+	margin:2px;	
+}
+
+.fileContainer [type=file] {
+    cursor: inherit;
+    display: block;
+    font-size: 999px;
+    filter: alpha(opacity=0);
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+	
+}
+
+//modified button
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+.btn-success {
+    background: #43A72D;
+    color: #ffffff;
+	border-color: transparent!important;
+}
+ 
+.btn-success:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #43A72D;
+}
+ 
+.btn-success:active, .btn-primary.active {
+    background: #43A72D;
+    box-shadow: none;
+	
+}
+
+
+.btn-primary {
+    background: #0099cc;
+    color: #ffffff;
+	border-color: transparent!important;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #33a6cc;
+}
+ 
+.btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+	
+}
+
+.btn-default {
+    background: #e0e0e0;
+    color: #333;
+	
+}
+ 
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    background: #e0e0e0;
+}
+ 
+.btn-default:active, .btn-default.active {
+    background: #e0e0e0;
+    box-shadow: none;
+}
+
+.rev-slider-2 .tp-caption.title-1,
+.title-1 {
+    font-size: 45px!important;
+}
+
+.panel-room-info{
+    margin: 0!important;
+    border: none;
+
+}
+
+/*room plan */
+
+.booked-in{
+    background-color: #00CC77;
+     color: white;
+}
+
+.booked-out{
+    background-color: #0099CC;
+     color: white;
+}
+
+.booked{
+    background-color: #273643;
+    color: white;
+}
+.blocking{
+    background-color: #CC5200;
+     color: white;
+}
+
+.renov{
+    background-color: #A30000;
+     color: white;
+}
+
+
+
+
+
+
+/* scroll bar modified */
+
+::-webkit-scrollbar {
+	width: 10px;
+	background: #273643;
+	-webkit-border-radius:1px;
+	border-radius: 1px;
+}
+::-webkit-scrollbar-thumb {
+	background: #0099CC;
+	-webkit-border-radius:10px;
+	border-radius: 10px;
+}
+
+
+@media( max-width:600px) { 
+	.rev-slider-2 a.button{ 
+		font: 20px!important; 
+	} 
+}

@@ -1,0 +1,1736 @@
+/* Template: Villa - Bed & Breakfast Landing Page Template
+   Author: InovatikThemes
+   Version: 1.0.0
+   Created: May 2017
+   Description: Master CSS file
+*/
+
+/**********************************
+	TABLE OF CONTENTS
+
+01. Preloader 
+02. General Styles
+03. Navigation
+04. Header
+05. Discover
+06. Facilities
+07. Rooms
+08. Tourism
+09. Testimonials
+10. Contact
+11. Footer
+12. Copyright
+13. Back To Top Button
+14. Media Queries
+**********************************/
+
+
+/* Style Switcher */
+#toggle-switcher {
+	display: block;
+	position: absolute;
+	top: 35px;
+	left: -40px;
+	width: 40px;
+	height: 41px;
+	border: 1px solid #647780;
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+	border-right: none;
+	background: #647780;
+	text-align: center;
+	cursor: pointer;
+}
+
+#toggle-switcher img.style-gear {
+	width: 47x;
+	height: 47px;
+	margin-top: -4px;
+	margin-left: -4px;
+}
+
+#style-switcher {
+	position: fixed;
+	z-index: 1000;
+	top: 80px;
+	right: -240px;
+	width: 240px;
+	padding: 10px 10px 12px 10px;
+	border: 1px solid #647780; 
+	border-radius: 2px;
+	background: #647780;
+}
+
+#style-switcher .style-switcher-cell {
+	display: inline-block;
+	width: 95px;
+	margin: 0px 6px 0px 6px;
+}
+
+#style-switcher .style-switcher-cell img {
+	display: inline-block;
+	width: 65px;
+	height: 57px;
+	margin-top: 0px;
+	border-radius: 2px;
+}
+
+#style-switcher h1 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #fff;
+	font: 400 20px/1.9em "Raleway", sans-serif;
+	text-align: center;
+}
+
+#style-switcher .style-switcher-cell a {
+	display: block;
+	margin-top: 7px;
+	color: #fff;
+	opacity: 0.8;
+	font: 500 12px/1.4em "Raleway", sans-serif;
+	text-decoration: none; 	
+	text-align: center;
+	-o-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+#style-switcher .style-switcher-cell:hover a {
+	opacity: 1;
+}
+
+#style-switcher .style-switcher-cell.active a {
+	opacity: 1;
+}
+
+#style-switcher .style-switcher-buttons {
+	margin: 13px auto 8px auto;
+	text-align: center;
+}
+
+#style-switcher .style-switcher-buttons a {
+	display: inline-block;
+	margin-right: 3px;
+	margin-left: 3px;
+	padding: 8px 23px 6px 23px;
+	font: 500 11px/1.3em "Raleway", sans-serif;
+	text-align: center;
+	text-decoration: none;
+	-o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#style-switcher a.style-switcher-back-button {
+	border: 1px solid #fff;
+	border-radius: 25px;
+	color: #fff;
+}
+
+#style-switcher a.style-switcher-back-button:hover {
+	background-color: #fff;
+	color: #647780;
+}
+
+#style-switcher a.style-switcher-buy-button {
+	border: 1px solid #fff;
+	border-radius: 25px;
+	background-color: #fff;
+	color: #647780;
+}
+
+#style-switcher a.style-switcher-buy-button:hover {
+	border: 1px solid #fff;
+	background-color: transparent;
+	color: #fff;
+}
+
+
+/******************************/
+/*     01. GENERAL STYLES     */
+/******************************/
+body {
+	color: #647780;
+	font: 400 14px/1.9em "Raleway", sans-serif;
+}
+
+h1 {
+	font: italic 700 50px/1.2em "PT Serif", sans-serif;
+}
+
+h2 {
+	font: italic 700 34px/1.2em "PT Serif", sans-serif;
+}
+
+h3 {
+	font: italic 700 28px/1.4em "PT Serif", sans-serif;
+}
+
+h4 {
+	font: italic 700 21px/1.2em "PT Serif", sans-serif;
+}
+
+p {
+	font: 400 14px/1.9em "Raleway", sans-serif;
+}
+
+p.above-header {
+	margin-bottom: 3px;
+	color: #21baa3;
+	font: 700 15px/1.2em "Raleway", sans-serif;
+}
+
+p.highlight, span.highlight {
+	color: #21baa3;
+	font: 700 15px/1.7em "Raleway", sans-serif;
+}
+
+a {
+	color: #21baa3;
+	font-weight: 500;
+}
+
+a:hover {
+	color: #000;
+	font-weight: 500;
+}
+
+a.inverse {
+	color: #fff;
+}
+
+a.inverse:hover {
+	color: #21baa3;
+}
+
+.button.solid {
+	display: inline-block;
+	max-width: 250px;
+	padding: 7px 25px 7px 25px;
+	border: 2px solid #21baa3;
+	border-radius: 2px;
+	background-color: #21baa3;
+	color: #fff;
+	font: 700 13px/1.6em "Raleway", sans-serif;
+	-o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.button.solid:hover {
+	background-color: #fff;
+	border: 2px solid #21baa3;
+	color: #21baa3;
+	text-decoration: none;
+}
+
+.button.outline {
+	display: inline-block;
+	max-width: 250px;
+	padding: 7px 25px 7px 25px;
+	background-color: #fff;
+	border: 2px solid #76878f;
+	border-radius: 2px;
+	color: #647780;
+	font: 700 13px/1.6em "Raleway", sans-serif;
+	-o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.button.outline:hover {
+	border: 2px solid #76878f;
+	background-color: #76878f;
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Form success and error message formatting */
+#msgSubmit.h3.text-center.tada.animated.text-success,
+#cmsgSubmit.h3.text-center.tada.animated.text-success {
+	margin-top: 3px;
+	margin-bottom: 8px;
+	color:  #647780;
+	font: 700 16px/1.5em "Raleway", sans-serif;
+}
+
+#msgSubmit.h3.text-center.text-danger,
+#cmsgSubmit.h3.text-center.text-danger {
+	margin-top: 3px;
+	margin-bottom: 8px;
+	color:  #ff4a26;
+	font: 700 16px/1.5em "Raleway", sans-serif;
+}
+
+/* Form success and error message animation from Animate.css */
+@-webkit-keyframes tada {
+	from {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+
+	10%, 20% {
+		-webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+		transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+	}
+
+	30%, 50%, 70%, 90% {
+		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+	}
+
+	40%, 60%, 80% {
+		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+	}
+
+	to {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+@keyframes tada {
+	from {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+
+	10%, 20% {
+		-webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+		transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+	}
+
+	30%, 50%, 70%, 90% {
+		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+	}
+
+	40%, 60%, 80% {
+		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+	}
+
+	to {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+.tada {
+	-webkit-animation-name: tada;
+	animation-name: tada;
+}
+
+.animated {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+/* end of form success and error message animation from Animate.css */
+
+
+/*************************/
+/*     02. PRELOADER     */
+/*************************/
+.spinner-wrapper {
+	position: fixed;
+	z-index: 999999;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(255, 255, 255, 1);
+}
+
+.spinner {
+	position: absolute;
+	left: 50%; /* centers the loading animation horizontally one the screen */
+	top: 50%; /* centers the loading animation vertically one the screen */
+	width: 60px;
+	height: 20px;
+	margin: -10px 0 0 -30px; /* is width and height divided by two */ 
+	text-align: center;
+}
+
+.spinner > div {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  background-color: #21baa3;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 40% { 
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+}
+
+
+/**************************/
+/*     03. NAVIGATION     */
+/**************************/
+.navbar {
+	background-color: #fff;
+}
+
+.navbar .nav.navbar-nav,
+.navbar .nav.navbar-nav.navbar-right {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/* Logo */
+.navbar .navbar-brand {
+	margin-top: 8px;
+	margin-bottom: 8px;
+	padding-top: 11px;
+}
+
+.navbar .navbar-brand img {
+	width: 79px;
+	height: 29px;
+}
+
+/* Menu links */
+.navbar .nav.navbar-nav li a {
+	color: #647780;
+	font: 700 13px/1em "Raleway", sans-serif; 
+}
+
+.navbar .nav.navbar-nav li a:hover,
+.navbar .nav.navbar-nav li.active a {
+	background-color: #e8e8e8;
+	color: #21baa3;
+}
+
+/* Mobile menu toggle button - pressed */
+.navbar .navbar-toggle,
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:active,
+.navbar .navbar-toggle.collapsed:active {
+	margin-top: 16px;
+	border: 1px solid #647780;
+	background-color: #647780;
+}
+
+.navbar .navbar-toggle .icon-bar,
+.navbar .navbar-toggle:hover .icon-bar,
+.navbar .navbar-toggle:active .icon-bar,
+.navbar .navbar-toggle.collapsed:active .icon-bar {
+	background-color: #f5f5f5;
+} 
+/* end of mobile menu toggle button - pressed */
+
+/* Mobile menu toggle button */
+.navbar .navbar-toggle.collapsed {
+	border: 1px solid #647780;
+	background-color: transparent;
+}
+
+.navbar .navbar-toggle.collapsed .icon-bar {
+	background-color: #647780;
+}
+/* end of mobile menu toggle button */
+
+
+/**********************/
+/*     04. HEADER     */
+/**********************/
+.swiper-container-header {
+	overflow: hidden;
+	position: relative;
+	min-height: auto;
+	width: 100%;
+	background: #f0f9fc; /* For browsers that do not support gradients */    
+	min-height: 99vh; 
+}
+  
+.swiper-container-header .swiper-slide.first {
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.swiper-container-header .swiper-slide.second {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.swiper-container-header .swiper-slide.third {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.swiper-container-header .flex-container-wrapper {
+	/* IE fix for vertical alignment in flex box */
+	display: flex;
+	flex-direction: column;
+	height: 100%; 
+}
+
+.swiper-container-header .header-content {
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 25px;
+	padding: 70px 0px 70px 0px;
+	min-height: 97vh; 
+	text-align: center;
+}
+
+.swiper-container-header .header-content h1 {
+	margin-top: 0px;
+	color: #647780;
+}
+
+.swiper-container-header .header-content p {
+	margin-top: 20px;
+	font: 400 19px/1.6em "Raleway", sans-serif;
+}
+
+.swiper-container-header .header-content .fa-angle-down {
+	margin-top: 0px;
+	color: #21baa3;
+	-o-transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.swiper-container-header .header-content .fa-angle-down:hover {
+	-webkit-transform: translate(0px, 7px);
+	-moz-transform: translate(0px, 7px);
+	-o-transform: translate(0px, 7px);
+	-ms-transform: translate(0px, 7px);
+	transform: translate(0px, 7px);
+}
+
+.swiper-container-header .form-container {
+	position: relative;
+	width: 100%;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+}
+
+.swiper-container-header .swiper-pagination {
+	bottom: 30px;
+}
+
+.swiper-container-header .swiper-pagination .swiper-pagination-bullet {
+	width: 11px;
+	height: 11px;
+	margin: 0 6px;
+	background: #fff;
+}
+
+/* Subheader */
+#subheader {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background: #f4f4f4;
+	text-align: center;
+}
+
+#subheader form input {
+	height: 44px;
+	margin-top: 20px;
+	padding-bottom: 6px;
+	border-radius: 2px;
+	border: 2px solid #e1e1e1; 
+	color: #283135;
+	font: 400 15px/1.6em "Raleway", sans-serif;
+	-webkit-appearance: none; /* removes inner shadow on form inputs on ios safari */
+}
+
+#subheader form button {
+	display: block;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 22px;
+	padding: 8px 53px 8px 53px;
+	border: 2px solid #21baa3;
+	border-radius: 2px;
+	background-color: #21baa3;
+	color: #fff;
+	font: 700 15px/1.6em "Raleway", sans-serif;
+	-o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#subheader form button:hover {
+	background-color: #fff;
+	color: #21baa3;
+}
+
+#subheader form input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #283135;
+	opacity: 0.9;
+}
+
+#subheader form input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #283135;
+   opacity: 0.9;
+}
+
+#subheader form input::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #283135;
+   opacity: 0.9;
+}
+#subheader form input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #283135;
+   opacity: 0.9;
+}
+
+
+/*************************/
+/*     05. DISCOVER      */
+/*************************/
+#discover {
+	padding-top: 77px;
+	padding-bottom: 80px;
+}
+
+#discover h2 {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+	margin-top: 30px;
+}
+
+.swiper-slide {
+	background: #fff;
+	font-size: 18px;
+	text-align: center;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+	
+.swiper-container img {
+	width: 100%;
+}
+
+#discover .swiper-button-next {
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%2321baa3'%2F%3E%3C%2Fsvg%3E");
+}
+
+#discover .swiper-button-prev {
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%2321baa3'%2F%3E%3C%2Fsvg%3E");
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation: fadeIn 0.6s;
+  animation: fadeIn 0.6s;
+}
+
+
+/**************************/
+/*     06. FACILITIES     */
+/**************************/
+#facilities {
+	padding-top: 77px;
+	padding-bottom: 80px;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url("http://inovatik.com/villa-bed-and-breakfast-landing-page/04-sliding-header/images/facilities-background.jpg") center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#facilities h2,
+#facilities p.above-header {
+	text-align: center;
+}
+
+#facilities h2 {
+	margin-top: 0px;
+	color: #fff;
+}
+
+#facilities .nav-tabs-container {
+	margin-top: 30px;
+	padding-top: 20px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom: 1px solid #fff;
+	background: #fff;
+}
+
+#facilities .nav-tabs-container li a {
+	font: 400 14px/1.9em "Raleway", sans-serif;
+}
+
+#facilities .tab-panes-container {
+	padding: 20px;
+	border-top: 1px solid #fff;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	background: #fff;
+}
+
+#facilities .nav-tabs {
+	max-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#facilities .nav-tabs li {
+	display: table-cell;
+	width: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0.1%;
+	padding-right: 0.1%;
+}
+
+#facilities .nav-tabs li a {
+	margin-bottom: 0px;
+	border: 1px solid #fff;
+	color: #21baa3;
+	-o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#facilities .nav-tabs li a:hover,
+#facilities .nav-tabs li.active a {
+	background-color: #21baa3;
+	color: #fff;
+}
+
+#facilities .tab-content .text-side h3 {
+	margin-top: 20px;
+}
+
+#facilities .tab-content .text-side p.highlight {
+	margin-bottom: 0px;
+}
+
+
+/*********************/
+/*     07. ROOMS     */
+/*********************/
+#rooms {
+	padding-top: 77px;
+	padding-bottom: 80px;
+}
+
+#rooms h2 {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+#rooms li i.fa {
+	margin-right: 6px;
+	color: #21baa3;
+}
+
+#rooms li {
+	margin-top: 4px;
+}
+
+#rooms p:nth-of-type(2) {
+	margin-bottom: 0px;
+}
+
+#rooms .rooms-container {
+	width: 98%;
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#rooms .rooms-container.first {
+	margin-top: 25px;
+}
+
+#rooms .rooms-container.middle {
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+
+#rooms .rooms-container .image-container img {
+	margin-top: 25px;
+}
+
+#rooms .rooms-container h4 {
+	margin-top: 21px;
+}
+
+#rooms .rooms-container .button {
+	margin-top: 8px;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+/* Magnific Popup Rooms Details Content */
+.room-details-container {
+	position: relative;
+	max-width: 1000px;
+	margin: 40px auto;
+	padding: 25px;
+	background: #fff;
+	text-align: left;
+}
+
+.room-details-container h3 {
+	margin-top: 20px;
+	margin-bottom: 7px;
+}
+
+.room-details-container hr   {
+	height: 1px;
+	width: 40px;
+	margin-top: 0px;
+	margin-bottom: 8px;
+	margin-left: 0;
+	border: 0;
+	background-color: #76878f;
+	text-align: left;
+}
+
+.room-details-container h4 {
+	margin-bottom: 17px;
+}
+
+.room-details-container ul {
+	margin-top: 10px;
+}
+
+.room-details-container li {
+	margin-top: 4px;
+}
+
+.room-details-container li:nth-last-of-type(1) {
+	margin-bottom: 20px;
+}
+
+.room-details-container li .fa {
+	margin-right: 6px;
+	color: #21baa3;
+}
+
+.room-details-container button.mfp-close.x-button {
+	position: absolute;
+	top: 0px;
+	right: -8px;
+	width: 44px;
+	height: 44px;
+}
+
+.room-details-container a.mfp-close.as-button {
+	position: relative;
+	width: auto;
+	height: auto;
+	opacity: 1;
+}
+
+/* Fade-move animation for rooms details popup */
+/* at start */
+.my-mfp-slide-bottom .zoom-anim-dialog {
+	opacity: 0;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+	-webkit-transform: translateY(-20px) perspective( 600px ) rotateX( 10deg );
+	-moz-transform: translateY(-20px) perspective( 600px ) rotateX( 10deg );
+	-ms-transform: translateY(-20px) perspective( 600px ) rotateX( 10deg );
+	-o-transform: translateY(-20px) perspective( 600px ) rotateX( 10deg );
+	transform: translateY(-20px) perspective( 600px ) rotateX( 10deg );
+}
+
+/* animate in */
+.my-mfp-slide-bottom.mfp-ready .zoom-anim-dialog {
+	opacity: 1;
+	-webkit-transform: translateY(0) perspective( 600px ) rotateX( 0 ); 
+	-moz-transform: translateY(0) perspective( 600px ) rotateX( 0 ); 
+	-ms-transform: translateY(0) perspective( 600px ) rotateX( 0 ); 
+	-o-transform: translateY(0) perspective( 600px ) rotateX( 0 ); 
+	transform: translateY(0) perspective( 600px ) rotateX( 0 ); 
+}
+
+/* animate out */
+.my-mfp-slide-bottom.mfp-removing .zoom-anim-dialog {
+	opacity: 0;
+	-webkit-transform: translateY(-10px) perspective( 600px ) rotateX( 10deg ); 
+	-moz-transform: translateY(-10px) perspective( 600px ) rotateX( 10deg ); 
+	-ms-transform: translateY(-10px) perspective( 600px ) rotateX( 10deg ); 
+	-o-transform: translateY(-10px) perspective( 600px ) rotateX( 10deg ); 
+	transform: translateY(-10px) perspective( 600px ) rotateX( 10deg ); 
+}
+
+/* Dark overlay, start state */
+.my-mfp-slide-bottom.mfp-bg {
+	opacity: 0;
+	-webkit-transition: opacity 0.3s ease-out; 
+	-moz-transition: opacity 0.3s ease-out; 
+	-o-transition: opacity 0.3s ease-out; 
+	transition: opacity 0.3s ease-out;
+}
+
+/* animate in */
+.my-mfp-slide-bottom.mfp-ready.mfp-bg {
+	opacity: 0.8;
+}
+/* animate out */
+.my-mfp-slide-bottom.mfp-removing.mfp-bg {
+	opacity: 0;
+}
+
+
+/************************/
+/*     08. TOURISM     */
+/************************/
+#tourism  {
+	padding-top: 77px;
+	padding-bottom: 64px;
+	background: #f4f4f4;
+}
+
+#tourism p.above-header {
+	text-align: center;
+}
+
+#tourism h2 {
+	margin-top: 0px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+/* Tourism attractions images hover animation */
+#tourism .image-container {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	margin-top: 35px;
+	margin-bottom: 15px;
+}
+
+#tourism .image-container img {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+#tourism .image-container .hover-overlay {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(33, 186, 163, 0.0);
+	color: #fff;
+	opacity: 0;
+	text-align: center;
+	-webkit-transition: background .3s ease-in-out, opacity .2s ease-in-out; 
+	-moz-transition: background .3s ease-in-out, opacity .2s ease-in-out;
+	-o-transition: background .3s ease-in-out, opacity .2s ease-in-out;
+	transition: background .3s ease-in-out, opacity .2s ease-in-out;
+}
+
+#tourism .image-container:hover .hover-overlay {	
+	background: rgba(33, 186, 163, 0.8);
+	opacity: 1;
+}
+
+#tourism .image-container .hover-overlay a, 
+#tourism .image-container .hover-overlay a h4,
+#tourism .image-container .hover-overlay a h4:hover {
+	color: #fff;	
+}
+/* end of tourism attractions images hover animation */
+
+
+/****************************/
+/*     09. TESTIMONIALS     */
+/****************************/
+#testimonials {
+	padding-top: 38px;
+	padding-bottom: 62px;
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("http://inovatik.com/villa-bed-and-breakfast-landing-page/04-sliding-header/images/testimonials-background.jpg") center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#testimonials p, #testimonials footer {
+	color: #fff;
+}
+
+#testimonials p {
+	font: 400 16px/1.9em "Raleway", sans-serif;
+}
+
+#testimonials .carousel-inner {
+	margin-bottom: 50px;
+}
+
+#testimonials .carousel-inner .mb-0 {
+	margin-top: 35px;
+	margin-bottom: 5px;
+	font-style: italic;
+}
+
+#testimonials .carousel-inner .rating-stars {
+	color: #21baa3;
+}
+
+#testimonials .carousel-indicators {
+	margin-bottom: -50px;
+}
+
+#testimonials .carousel-indicators li {
+	margin-left: 2px;
+	margin-right: 2px;
+	background-color: #fff;
+}
+
+#testimonials .carousel-indicators li.active {
+	border: 1px solid #21baa3;
+	background-color: #21baa3;
+}
+
+
+/***********************/
+/*     10. CONTACT     */
+/***********************/
+#contact {
+	padding-top: 77px;
+	padding-bottom: 63px;
+	background-color: #f4f4f4;
+}
+
+#contact h2 {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+#contact p:nth-of-type(2) {
+	margin-bottom: 0px;
+}
+
+#contact li i.fa {
+	margin-right: 6px;
+	color: #21baa3;
+}
+
+#contact li {
+	margin-top: 4px;
+	margin-right: 3px;
+	margin-left: 3px;
+}
+
+#contact .fa-phone {
+	margin-right: 0px;
+	margin-bottom: 2px;
+	vertical-align: middle;
+	font-size: 16px;
+}
+
+#contact a.phone-number {
+	color: #647780;
+	font-weight: 400;
+	text-decoration: none;
+	cursor: default;
+}
+
+#contact .map-responsive {
+	overflow: hidden;
+	position: relative;
+	height: 0;
+	margin-top: 30px; 
+	padding-bottom: 56.25%;
+	border-radius: 4px;
+}
+
+#contact .map-responsive iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: none; 
+}
+
+#contact form {
+	margin-top: 30px;
+}
+
+#contact form .form-group {
+	margin-bottom: 17px;
+}
+
+#contact form input {
+	height: 44px;
+	margin-top: 20px;
+	padding-bottom: 6px;
+	font: 400 15px/1.6em "Raleway", sans-serif;
+	color: #283135;
+	border: 2px solid #d6d6d6; 
+	border-radius: 2px;
+	-webkit-appearance: none; /* removes inner shadow on form inputs on ios safari */
+}
+
+#contact form textarea {
+	margin-top: 21px;
+	color: #283135;
+	font: 400 15px/1.6em "Raleway", sans-serif;
+	border: 2px solid #d6d6d6; 
+	border-radius: 2px;
+}
+
+#contact form button {
+	display: block;
+	width: 100%;
+	margin-top: 21px;
+	padding: 8px 53px 8px 53px;
+	border: 2px solid #21baa3;
+	border-radius: 2px;
+	background-color: #21baa3;
+	color: #fff;
+	font: 700 15px/1.6em "Raleway", sans-serif;
+	-o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#contact form button:hover {
+	background-color: #fff;
+	color: #21baa3;
+}
+
+#contact form input::-webkit-input-placeholder,
+#contact form textarea::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #283135;
+	opacity: 0.9;
+}
+
+#contact form input:-moz-placeholder,
+#contact form textarea:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #283135;
+   opacity: 0.9;
+}
+
+#contact form input::-moz-placeholder,
+#contact form textarea::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #283135;
+   opacity: 0.9;
+}
+#contact form input:-ms-input-placeholder,
+#contact form textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #283135;
+   opacity: 0.9;
+}
+
+
+/**********************/
+/*     11. FOOTER     */
+/**********************/
+#footer {
+	padding-top: 37px;
+	padding-bottom: 80px;
+	background-color: #647780;
+	color: #fff;
+}
+
+#footer h3 {
+	margin: 35px auto 10px auto;
+	font: italic 700 26px/1.4em "PT Serif", sans-serif;
+}
+
+#footer p {
+	margin-left: auto;
+	margin-right: auto;
+	font: 400 14px/1.9em "Raleway", sans-serif;
+}
+
+#footer .social-icons-container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footer .fa {
+    width: 45px;
+    height: 45px;
+    padding: 15px;
+	margin-top: 6px;
+	margin-right: 4px;
+	border-radius: 50%;
+    background: #fff;
+    color: #647780;
+	text-align: center;
+    line-height: 15px;
+    vertical-align: baseline;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#footer .fa:hover {
+	background-color: #21baa3;
+	color: #fff;
+}
+
+
+/*************************/
+/*     12. COPYRIGHT     */
+/*************************/
+#copyright {
+	padding-top: 22px;
+	padding-bottom: 8px;
+	background-color: #596e78;
+}
+
+#copyright p {
+	color: #fff;
+	font: 400 14px/1.7em "Raleway", sans-serif;
+	text-align: center;
+	opacity: 0.7;
+}
+
+
+/**********************************/
+/*     13. BACK TO TOP BUTTON     */
+/**********************************/
+a.back-to-top {
+	display: none;
+	position: fixed;
+	z-index: 999;
+	right: 12px;
+	bottom: 12px;
+	width: 42px;
+	height: 42px;
+	border-radius: 30px;
+	background: #40545e url("http://inovatik.com/villa-bed-and-breakfast-landing-page/04-sliding-header/images/up-arrow.png") no-repeat center 47%;
+	background-size: 18px 18px; 
+	text-indent: -9999px;
+}
+
+a:hover.back-to-top {
+	background-color: #000; 
+}
+
+
+/*****************************/
+/*     14. MEDIA QUERIES     */
+/*****************************/
+/* Min-width width 768px */
+@media (min-width: 768px) {
+	
+	/* Style Switcher */
+	#style-switcher .style-switcher-cell {
+		width: 95px;
+		margin-top: 4px;
+		margin-bottom: 4px;
+	}
+
+	#style-switcher .style-switcher-cell img {
+		width: 95px;
+		height: 83px;
+		margin-top: 5px;
+	}
+	
+	h2 {
+		font: italic 700 44px/1.2em "PT Serif", sans-serif;
+	}
+	
+	.button.solid {
+		width: auto;
+	}
+	
+	.navbar {
+        padding: 20px 0;
+		border-bottom: 1px solid rgba(0, 0, 0, 0);
+		background: transparent;
+		-webkit-transition: border-bottom .3s ease-in-out,background .3s ease-in-out,padding .3s ease-in-out;
+        -moz-transition: border-bottom .3s ease-in-out,background .3s ease-in-out,padding .3s ease-in-out;
+        transition: border-bottom .3s ease-in-out,background .3s ease-in-out,padding .3s ease-in-out;
+		-webkit-backface-visibility: hidden;
+    }
+
+    .navbar.top-nav-collapse {
+       	padding: 0;
+		border-bottom: 1px solid #f4f4f4;
+		background-color: #fff;
+		-webkit-box-shadow: 0px -4px 8px #000000;
+		-moz-box-shadow: 0px -4px 8px #000000;
+		box-shadow: 0px -4px 8px #000000;
+		-webkit-backface-visibility: hidden;
+	}
+	
+	.navbar .navbar-brand {
+		margin-left: 0px;
+		margin-right: 16px;
+	}
+	
+	.navbar .nav.navbar-nav li a,
+	.navbar .nav.navbar-nav.navbar-right li a	{
+		margin: 12px 14px 18px 14px;
+		padding: 15px 3px 5px 3px;
+		-o-transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+		transition: all .2s ease-in-out;
+	}
+	
+	.navbar .nav.navbar-nav li.active a,
+	.navbar .nav.navbar-nav li a:hover	{
+		border-bottom: 1px solid #21baa3;
+		background-color: transparent;
+		color: #21baa3;
+	}
+	
+	/* Navbar language and phone */
+	.navbar .nav.navbar-nav.navbar-right {
+		margin-right: -13px;
+	}
+	
+	.navbar .nav.navbar-nav.navbar-right .dropdown-toggle {
+		margin-top: 13px;
+		margin-bottom: 20px;
+		margin-right: 0px;
+		border-bottom: 1px solid rgba(0, 0, 0, 0);
+		font: 500 12px/1em "Raleway", sans-serif; 
+	}
+	
+	.navbar .nav.navbar-nav.navbar-right .dropdown-toggle:hover {
+		border-bottom: 1px solid #21baa3;
+	}
+	
+	.navbar .nav.navbar-nav.navbar-right .dropdown-toggle:focus {
+		background-color: transparent;
+	}
+	
+	.navbar .nav.navbar-nav.navbar-right .dropdown-menu {
+		top: 51px;
+		min-width: 10px;
+		width: 32px;
+		padding-top: 0px;
+		padding-bottom: 4px;
+		border-top: none;
+		border: none;
+		background: transparent;
+		text-align: center;
+		box-shadow: none;
+	}
+	
+	.navbar .nav.navbar-nav.navbar-right .dropdown-menu li a {
+		margin: 4px 9px 4px 7px;
+		padding: 4px 0px 4px 0px;
+		border-bottom: 1px solid rgba(0, 0, 0, 0);		
+		font: 500 12px/1em "Raleway", sans-serif;
+	}
+	
+	.navbar .nav.navbar-nav.navbar-right .dropdown-menu li a:hover {
+		border-bottom: 1px solid #21baa3;
+	}
+
+	.navbar.top-nav-collapse .nav.navbar-nav.navbar-right .dropdown-menu {
+		background: #fff;
+	}
+	
+	.navbar .nav.navbar-nav.navbar-right li .phone-number {
+		margin-top: 18px;
+		margin-bottom: 0px;
+		padding: 8px 10px 7px 10px;
+		border: 1px solid #647780;
+		border-radius: 2px;
+		font: 500 12px/1em "Raleway", sans-serif; 
+	}
+	
+	.navbar .nav.navbar-nav.navbar-right li:hover .phone-number {
+		color: #647780;
+		cursor: default;
+	}
+
+	.navbar .nav.navbar-nav.navbar-right li .phone-number .fa-phone {
+		margin-right: 1px;
+		font-size: 14px;
+		vertical-align: middle;
+	}
+	/* end of navbar language and phone */
+	
+	.swiper-container-header .header-content h1 {
+		font: italic 700 64px/1.2em "PT Serif", sans-serif;
+	}
+	
+	.swiper-container-header .header-content p {
+		margin-top: 12px;
+	}
+	
+	.swiper-container-header .header-content .fa-angle-down {
+		margin-top: 10px;
+	}
+	
+	#subheader {
+		padding-top: 60px;
+		padding-bottom: 45px;
+	}
+	
+	#subheader .form-group {
+		display: inline-block;
+	}
+	
+	#subheader form input,
+	#subheader form button	{
+		display: inline-block;
+		width: 202px;
+		margin: 0px 5px 0px 5px;
+	}
+	
+	
+	
+	#discover {
+		padding-top: 86px;
+		padding-bottom: 90px;
+	}
+	
+	#facilities {
+		padding-top: 87px;
+		padding-bottom: 90px;
+	}
+	
+	#facilities .nav-tabs-container {
+		width: 540px;
+		padding-top: 5px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	#facilities .tab-panes-container {
+		border-radius: 4px;
+	}
+	
+	#facilities .nav-tabs {
+		max-width: 500px;
+	}
+	
+	#facilities .nav-tabs li .fa {
+		display: block;
+		margin-top: 10px;
+		margin-bottom: 15px;
+		font-size: 2em;
+	}
+	
+	#facilities .nav-tabs li a {
+		border: none;
+		color: #647780;
+	}
+	
+	#facilities .nav-tabs li a:hover,
+	#facilities .nav-tabs li.active a {
+		background-color: transparent;
+		color: #21baa3;
+	}
+	
+	#rooms {
+		padding-top: 87px;
+		padding-bottom: 90px;
+	}
+	
+	#rooms .rooms-container {
+		margin-top: 20px;
+	}
+	
+	#rooms .rooms-container.middle,
+	#rooms .rooms-container.first	{
+		margin-top: 20px;
+		margin-bottom: 0px;
+	}
+	
+	.room-details-container button.mfp-close.x-button {
+		top: 5px;
+		right: -2px;
+	}
+	
+	.room-details-container {
+		padding: 35px;
+	}
+	
+	#tourism {
+		padding-top: 87px;
+		padding-bottom: 74px;
+	}
+	
+	#testimonials {
+		padding-top: 48px;
+		padding-bottom: 63px;
+	}
+	
+	#contact {
+		padding-top: 87px;
+		padding-bottom: 73px;
+	}
+	
+	#footer {
+		padding-top: 47px;
+		padding-bottom: 90px;
+	}
+	
+	#footer p.copyright {
+		margin-top: 30px;
+	}
+	
+	a.back-to-top {
+		right: 20px;
+		bottom: 20px;
+	}
+}
+
+
+/* Min-width width 992px */
+@media (min-width: 992px) {
+	.swiper-container-header .header-content h1 {
+		font: italic 700 76px/1.3em "PT Serif", sans-serif;
+	}
+	
+	#discover p {
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	#facilities .nav-tabs-container {
+		margin-top: 40px;
+	}
+	
+	#facilities .tab-content .tab-pane img {
+		padding-right: 20px;
+	}
+	
+	#facilities .tab-content .tab-pane .text-side {
+		padding-left: 0px;
+	}
+	
+	#facilities .tab-content .text-side h3 {
+		margin-top: 45px;
+		margin-bottom: 13px;
+	}
+	
+	#facilities .tab-content .text-side p.highlight {
+		margin-top: 13px;
+	}
+	
+	#rooms p.above-list, #rooms ul {
+		width: 950px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	#rooms img {
+		margin-top: 40px;
+	}
+	
+	.room-details-container button.mfp-close.x-button {
+		top: 5px;
+		right: 5px;
+	}
+	
+	.room-details-container img {
+		padding-right: 10px;
+	}
+	
+	.room-details-container h3 {
+		margin-top: 30px;
+	}
+		
+	#tourism .left-attraction {
+		padding-right: 25px;
+	}
+
+	#tourism .right-attraction {
+		padding-left: 25px;
+	}
+	
+	#contact ul {
+		margin-bottom: 10px;
+	}
+	
+	#contact .map-responsive {
+		height: 356px;
+	}
+	
+	#contact form input {
+		margin-top: 0px;
+	}
+	
+	#contact form textarea {
+		margin-top: 0px;
+	}
+	
+	#contact form button {
+		margin-top: 17px;
+	}
+	
+	#footer {
+		padding-bottom: 73px;
+	}
+	
+	#footer h3 {
+		width: 90%;
+	}
+
+	#footer p {
+		width: 90%;
+	}
+
+	#footer .social-icons-container {
+		width: 90%;
+	}
+}
+
+
+/* Min-width width 1200px */
+@media (min-width: 1200px) {
+	
+	/* Image gallery hover animation */
+	#discover .swiper-container .image-container {
+		overflow: hidden;
+		width: 367px;
+		height: 231px;
+	}
+	
+	#discover .swiper-container .image-container img {
+		margin: 0px;
+		-webkit-transition: all 0.3s; 
+		-moz-transition: all 0.3s; 
+		-o-transition: all 0.3s; 
+		transition: all 0.3s;
+	}
+
+	#discover .swiper-container .image-container img:hover {
+		-moz-transform: scale(1.15);
+		-webkit-transform: scale(1.15);
+		transform: scale(1.15);
+	}
+	/* end of image gallery hover animation */
+	
+	#facilities .tab-content .tab-pane img {
+		padding-right: 30px;
+	}
+	
+	#facilities .tab-content .tab-pane .text-side {
+		padding-right: 30px;
+	}
+	
+	#facilities .tab-content .text-side h3 {
+		margin-top: 80px;
+	}
+	
+	/* Rooms images hover animation */
+	#rooms .rooms-container .image-container {
+		overflow: hidden;
+		width: 353px;
+		height: 199px;
+		margin-top: 30px;
+	}
+	
+	#rooms .rooms-container .image-container img {
+		margin: 0px;
+		-webkit-transition: all 0.3s; 
+		-moz-transition: all 0.3s; 
+		-o-transition: all 0.3s; 
+		transition: all 0.3s;
+	}
+
+	#rooms .rooms-container .image-container img:hover {
+		-moz-transform: scale(1.15);
+		-webkit-transform: scale(1.15);
+		transform: scale(1.15);
+	} 
+	/* end of rooms images hover animation */
+	
+	#contact .map-responsive {
+		margin-right: 7px;
+	}
+	
+	#contact form {
+		margin-left: 7px;
+	}
+}

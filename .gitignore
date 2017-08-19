@@ -1,1 +1,12 @@
 /application/config/*
+*/logs/log-*.php
+!*/logs/index.html
+*/cache/*
+!*/cache/index.html
+!*/cache/.htaccess
+#codeigniter 3
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+application/third_party/*
+/vendor/

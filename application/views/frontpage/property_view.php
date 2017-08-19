@@ -216,9 +216,9 @@
   <div class="container layercolor">
    <div class="row">
     <div class="col-md-12">
-      <div class=" magnific">
+      <div class="magnific">
         <div>
-          <h3>Discover Our Property</h3>
+          <h2>Discover Our Property</h2>
           <p>
             Brief Video Below
           </p>

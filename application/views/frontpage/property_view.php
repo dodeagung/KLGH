@@ -180,21 +180,55 @@
             <p>Our entry level room gives you access to all amenities at a really affordable price</p>
             <a class="button outline popup-with-move-anim" href="#room-1">DETAILS</a> <a class="button solid page-scroll" href="#subheader">BOOK NOW</a>
           </div>
+        </div>       
+        <div class="swiper-slide">
+         <div class="rooms-container first">
+          <a class="popup-with-move-anim" href="#room-1">
+            <div class="image-containers">
+              <img class="img-responsive" src="<?php echo $this->common->theme_link(); ?>images/room-1-image.jpg" alt="rooms image">
+            </div>
+          </a>
+          <h4>Balcony Room - $59/day</h4>
+          <p>Our entry level room gives you access to all amenities at a really affordable price</p>
+          <a class="button outline popup-with-move-anim" href="#room-1">DETAILS</a> <a class="button solid page-scroll" href="#subheader">BOOK NOW</a>
         </div>
-
-
       </div>
-      <!-- Add Arrows -->
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-    </div> 
 
-  </div>
+
+    </div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div> 
+
+</div>
 </div> <!-- end of row -->
 </div> <!-- end of container -->
 </div> <!-- end of discover -->
 
 
+
+
+
+
+<!-- FACILITIES -->
+<div id="video" class="bg_content">
+  <div class="container layercolor">
+   <div class="row">
+    <div class="col-md-12">
+      <div class=" magnific">
+        <div>
+          <h3>Discover Our Property</h3>
+          <p>
+            Brief Video Below
+          </p>
+          <a href="https://www.youtube.com/watch?v=tY9o31WekjQ" class="video_pop"><i class="fa fa-play-circle fa-2x"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> <!-- end of container -->
+</div> <!-- end of facilities -->
 
 <div id="service">
   <div class="container text-center">
@@ -244,24 +278,14 @@
 
           </li> 
 
-
-
-
-
         </ul>
       </div>
 
     </div>
   </div>
-</div>
-
-
-</div> <!-- end of row -->
-</div> <!-- end of container -->
-</div> <!-- end of rooms -->
-
-
-<!-- FACILITIES -->
+  </div>
+  </div> 
+</div> 
 <div id="facilities">
   <div class="container">
     <div class="row">

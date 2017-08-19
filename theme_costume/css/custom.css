@@ -96,7 +96,15 @@
 			background-size: cover;
 			margin-bottom: 60px;
 			position: relative;
-			
+			background-size: cover;
+			background-position: bottom;
+			background-attachment: fixed;
+			-webkit-transition: background-image 1s;
+			-moz-transition: background-image 1s;
+			-ms-transition: background-image 1s;
+			-o-transition: background-image 1s;
+			transition: background-image 1s;
+			overflow: hidden;
 		}
 
 		.layercolor{

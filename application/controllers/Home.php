@@ -61,6 +61,10 @@ class Home extends CI_Controller
 		$galleries = $this->content_model->get_images_front($this->settings->info->image_front_num,false);
 		
 		$categories = $this->content_model->get_distinc_cat_images_front($this->settings->info->image_front_num,$idproperty);
+
+		$this->templatefront->loadExternalJS(
+			array('frontpage/js/jsPlugin')
+		);		
 		
 		$this->templatefront->loadData("activeLink",array("home" => 1));
 

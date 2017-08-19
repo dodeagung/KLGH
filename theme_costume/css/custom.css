@@ -17,6 +17,10 @@
 	margin-top: 10px;
 	width: 100%;
 }
+
+.title-post{
+	margin-bottom: 0px;
+}
 /*.list-unstyled li, .list-unstyled li i{
 	vertical-align: middle;
 	line-height: 100px;

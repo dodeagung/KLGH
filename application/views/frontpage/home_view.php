@@ -1,132 +1,132 @@
 <!-- NAVIGATION -->
-  
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-      <div class="row">
-        <div class="navbar-header page-scroll">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand page-scroll" href="http://www.inovatik.com/villa-bed-and-breakfast-landing-page/04-sliding-header/header"><img src="<?php echo $this->common->theme_link(); ?>images/logo.svg" alt="logo"></a>
-        </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="navbar-collapse collapse" id="myNavbar">
-          <ul class="nav navbar-nav">
-            <li class="active"><a class="page-scroll" href="#subheader">BOOK US</a></li>
-            <li><a class="page-scroll" href="#discover">EXPLORE BALI</a></li>
-            <li><a class="page-scroll" href="#tourism">NEWS</a></li>
-            <li><a class="page-scroll" href="#contact">CONTACT</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">EN <i class="fa fa-caret-down"></i></a>
-              <ul class="dropdown-menu">
-                <li><a href="index.html">FR</a></li>
-                <li><a href="index.html">IT</a></li>
-                <li><a href="index.html">SP</a></li>
-              </ul>
-            </li>
-            <li><a class="scrolling phone-number hidden-xs hidden-sm" href="tel:18003249832"><i class="fa fa-phone" aria-hidden="true"></i> 1-800-324-9832</a></li>
-          </ul>
-        </div>
-        
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="row">
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand page-scroll" href="http://www.inovatik.com/villa-bed-and-breakfast-landing-page/04-sliding-header/header"><img src="<?php echo $this->common->theme_link(); ?>images/logo.svg" alt="logo"></a>
       </div>
-        </div>
-    </div> <!-- end of navigation -->
-  
-  
-  <!-- HEADER -->
-  <div id="header" class="swiper-container-header">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide first" style="background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('<?php echo $this->common->theme_link(); ?>/images/header-background-1.jpg') center no-repeat;">
-        <div class="flex-container-wrapper"> <!-- IE fix for vertical alignment in flex box -->
-          <div class="header-content text-center">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12">
-                  <h1>Amazing Experience</h1>
-                  <p>Villa is one of the most beautiful and relaxing places at the Mediterranean sea</p>
-            </div>
-              </div>             
-                <div class="row">
-                <div class="col-md-12">
-                 
-                  <span class="button-action"><a class="button outline  as-button" href="#rooms">EXPLORE VILLA</a>&nbsp; <a class="button solid  as-button " href="#header">BOOK NOW</a> </span>
- 
-            </div>
-              </div>           
-                 <div class="row bottom-page">
-                <div class="col-md-12">
-                    <a class="page-scroll firstpage" href="#rooms"><i class="fa fa-angle-down fa-3x"></i></a>
-                </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="navbar-collapse collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a class="page-scroll" href="#subheader">BOOK US</a></li>
+          <li><a class="page-scroll" href="#discover">EXPLORE BALI</a></li>
+          <li><a class="page-scroll" href="#tourism">NEWS</a></li>
+          <li><a class="page-scroll" href="#contact">CONTACT</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">EN <i class="fa fa-caret-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="index.html">FR</a></li>
+              <li><a href="index.html">IT</a></li>
+              <li><a href="index.html">SP</a></li>
+            </ul>
+          </li>
+          <li><a class="scrolling phone-number hidden-xs hidden-sm" href="tel:18003249832"><i class="fa fa-phone" aria-hidden="true"></i> 1-800-324-9832</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</div> <!-- end of navigation -->
+
+
+<!-- HEADER -->
+<div id="header" class="swiper-container-header">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide first" style="background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('<?php echo $this->common->theme_link(); ?>/images/header-background-1.jpg') center no-repeat;">
+      <div class="flex-container-wrapper"> <!-- IE fix for vertical alignment in flex box -->
+        <div class="header-content text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h1>Amazing Experience</h1>
+                <p>Villa is one of the most beautiful and relaxing places at the Mediterranean sea</p>
+              </div>
+            </div>             
+            <div class="row">
+              <div class="col-md-12">
+
+                <span class="button-action"><a class="button outline  as-button" href="#rooms">EXPLORE VILLA</a>&nbsp; <a class="button solid  as-button " href="#header">BOOK NOW</a> </span>
+
+              </div>
+            </div>           
+            <div class="row bottom-page">
+              <div class="col-md-12">
+                <a class="page-scroll firstpage" href="#rooms"><i class="fa fa-angle-down fa-3x"></i></a>
               </div>
             </div>
-          </div> <!-- end of header content -->
-        </div> <!-- end of flex container wrapper -->
-      </div> <!-- end of first -->
-      <div class="swiper-slide first" style="background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('<?php echo $this->common->theme_link(); ?>/images/header-background-1.jpg') center no-repeat;">
-        <div class="flex-container-wrapper"> <!-- IE fix for vertical alignment in flex box -->
-          <div class="header-content text-center">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12">
-                  <h1>Amazing Experience</h1>
-                  <p>Villa is one of the most beautiful and relaxing places at the Mediterranean sea</p>
-            </div>
-              </div>             
-                <div class="row">
-                <div class="col-md-12">
-                 
-                  <span class="button-action"><a class="button outline  as-button" href="#rooms">EXPLORE VILLA</a>&nbsp; <a class="button solid  as-button " href="#header">BOOK NOW</a> </span>
- 
-            </div>
-              </div>           
-                 <div class="row bottom-page">
-                <div class="col-md-12">
-                    <a class="page-scroll firstpage" href="#rooms"><i class="fa fa-angle-down fa-3x"></i></a>
-                </div>
+          </div>
+        </div> <!-- end of header content -->
+      </div> <!-- end of flex container wrapper -->
+    </div> <!-- end of first -->
+    <div class="swiper-slide first" style="background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('<?php echo $this->common->theme_link(); ?>/images/header-background-1.jpg') center no-repeat;">
+      <div class="flex-container-wrapper"> <!-- IE fix for vertical alignment in flex box -->
+        <div class="header-content text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h1>Amazing Experience</h1>
+                <p>Villa is one of the most beautiful and relaxing places at the Mediterranean sea</p>
+              </div>
+            </div>             
+            <div class="row">
+              <div class="col-md-12">
+
+                <span class="button-action"><a class="button outline  as-button" href="#rooms">EXPLORE VILLA</a>&nbsp; <a class="button solid  as-button " href="#header">BOOK NOW</a> </span>
+
+              </div>
+            </div>           
+            <div class="row bottom-page">
+              <div class="col-md-12">
+                <a class="page-scroll firstpage" href="#rooms"><i class="fa fa-angle-down fa-3x"></i></a>
               </div>
             </div>
-          </div> <!-- end of header content -->
-        </div> <!-- end of flex container wrapper -->
-      </div> <!-- end of first -->
-      <div class="swiper-slide first" style="background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('<?php echo $this->common->theme_link(); ?>/images/header-background-1.jpg') center no-repeat;">
-        <div class="flex-container-wrapper"> <!-- IE fix for vertical alignment in flex box -->
-          <div class="header-content text-center">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12">
-                  <h1>Amazing Experience</h1>
-                  <p>Villa is one of the most beautiful and relaxing places at the Mediterranean sea</p>
-            </div>
-              </div>             
-                <div class="row">
-                <div class="col-md-12">
-                 
-                  <span class="button-action"><a class="button outline  as-button" href="#rooms">EXPLORE VILLA</a>&nbsp; <a class="button solid  as-button " href="#header">BOOK NOW</a> </span>
- 
-            </div>
-              </div>           
-                 <div class="row bottom-page">
-                <div class="col-md-12">
-                    <a class="page-scroll firstpage" href="#rooms"><i class="fa fa-angle-down fa-3x"></i></a>
-                </div>
+          </div>
+        </div> <!-- end of header content -->
+      </div> <!-- end of flex container wrapper -->
+    </div> <!-- end of first -->
+    <div class="swiper-slide first" style="background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('<?php echo $this->common->theme_link(); ?>/images/header-background-1.jpg') center no-repeat;">
+      <div class="flex-container-wrapper"> <!-- IE fix for vertical alignment in flex box -->
+        <div class="header-content text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h1>Amazing Experience</h1>
+                <p>Villa is one of the most beautiful and relaxing places at the Mediterranean sea</p>
+              </div>
+            </div>             
+            <div class="row">
+              <div class="col-md-12">
+
+                <span class="button-action"><a class="button outline  as-button" href="#rooms">EXPLORE VILLA</a>&nbsp; <a class="button solid  as-button " href="#header">BOOK NOW</a> </span>
+
+              </div>
+            </div>           
+            <div class="row bottom-page">
+              <div class="col-md-12">
+                <a class="page-scroll firstpage" href="#rooms"><i class="fa fa-angle-down fa-3x"></i></a>
               </div>
             </div>
-          </div> <!-- end of header content -->
-        </div> <!-- end of flex container wrapper -->
-      </div> <!-- end of first -->
-      
+          </div>
+        </div> <!-- end of header content -->
+      </div> <!-- end of flex container wrapper -->
+    </div> <!-- end of first -->
+
     
     <!-- If we need pagination -->
     <div class="swiper-pagination"></div>
   </div> <!-- end of header -->
-    
-    
+
+
   
   
   
@@ -146,38 +146,40 @@
               <div class="rooms-container first">
                 <a class="popup-with-move-anim" href="#room-1">
                   <div class="image-container">
-                    <img class="img-responsive" src="<?php echo $this->common->theme_link(); ?>images/room-1-image.jpg" alt="rooms image">
+                    <img class="img-responsive" src="<?php echo $this->common->theme_link(); ?>images/facilities-beach.jpg" alt="rooms image">
                   </div>
                 </a>
-                <h4>Balcony Room - $59/day</h4>
-                <p>Our entry level room gives you access to all amenities at a really affordable price</p>
-                <a class="button outline popup-with-move-anim" href="#room-1">DETAILS</a> <a class="button solid page-scroll" href="#subheader">BOOK NOW</a>
+                <h4 class="title-post">Sanur Cosiest Beach...</h4><p class="date-post">8 August 2017</p>
+                <p>Want to know about our preferred beach to visit?</p>
+                <a class="button solid page-scroll" href="#subheader">Read more...</a>
               </div>
             </div>
             <div class="col-sm-4">
-              <div class="rooms-container middle">
-                <a class="popup-with-move-anim" href="#room-2">
+              <div class="rooms-container first">
+                <a class="popup-with-move-anim" href="#room-1">
                   <div class="image-container">
-                    <img class="img-responsive" src="<?php echo $this->common->theme_link(); ?>images/room-2-image.jpg" alt="rooms image">
+                    <img class="img-responsive" src="<?php echo $this->common->theme_link(); ?>images/facilities-beach.jpg" alt="rooms image">
                   </div>
                 </a>
-                <h4>Panoramic Room - $89/day</h4>
-                <p>Get the best view to the beautiful sea and splendid surroundings at a moderate price</p>
-                <a class="button outline popup-with-move-anim" href="#room-2">DETAILS</a> <a class="button solid page-scroll" href="#subheader">BOOK NOW</a>
+                <h4 class="title-post">Sanur Cosiest Beach...</h4><p class="date-post">8 August 2017</p>
+                <p>Want to know about our preferred beach to visit?</p>
+                <a class="button solid page-scroll" href="#subheader">Read more...</a>
               </div>
             </div>
             <div class="col-sm-4">
-              <div class="rooms-container">
-                <a class="popup-with-move-anim" href="#room-3">
+              <div class="rooms-container first">
+                <a class="popup-with-move-anim" href="#room-1">
                   <div class="image-container">
-                    <img class="img-responsive" src="<?php echo $this->common->theme_link(); ?>images/room-3-image.jpg" alt="rooms image">
+                    <img class="img-responsive" src="<?php echo $this->common->theme_link(); ?>images/facilities-beach.jpg" alt="rooms image">
                   </div>
                 </a>
-                <h4>Presidential Room - $129/day</h4>
-                <p>High class luxury for the most demanding tourists. Features balcony and panorama</p>
-                <a class="button outline popup-with-move-anim" href="#room-3">DETAILS</a> <a class="button solid page-scroll" href="#subheader">BOOK NOW</a>
+                <h4 class="title-post">Sanur Cosiest Beach...</h4><p class="date-post">8 August 2017</p>
+                <p>Want to know about our preferred beach to visit?</p>
+                <a class="button solid page-scroll" href="#subheader">Read more...</a>
               </div>
             </div>
+
+            
           </div>
         </div>
         
@@ -280,7 +282,7 @@
           </div>
         </div>
         <div class="col-md-6">
-          
+
           <!-- Contact Form -->
           <form id="ContactForm" data-toggle="validator">
             <div class="form-group">

@@ -156,7 +156,7 @@
                 <p>Our entry level room gives you access to all amenities at a really affordable price</p>
                 <a class="button outline popup-with-move-anim" href="#room-1">DETAILS</a> <a class="button solid page-scroll" href="#subheader">BOOK NOW</a>
               </div>
-            </div> 
+            </div>
             <div class="swiper-slide">
              <div class="rooms-container first">
               <a class="popup-with-move-anim" href="#room-1">
@@ -168,17 +168,29 @@
               <p>Our entry level room gives you access to all amenities at a really affordable price</p>
               <a class="button outline popup-with-move-anim" href="#room-1">DETAILS</a> <a class="button solid page-scroll" href="#subheader">BOOK NOW</a>
             </div>
+          </div> 
+          <div class="swiper-slide">
+           <div class="rooms-container first">
+            <a class="popup-with-move-anim" href="#room-1">
+              <div class="image-containers">
+                <img class="img-responsive" src="<?php echo $this->common->theme_link(); ?>images/room-1-image.jpg" alt="rooms image">
+              </div>
+            </a>
+            <h4>Balcony Room - $59/day</h4>
+            <p>Our entry level room gives you access to all amenities at a really affordable price</p>
+            <a class="button outline popup-with-move-anim" href="#room-1">DETAILS</a> <a class="button solid page-scroll" href="#subheader">BOOK NOW</a>
           </div>
-
-
         </div>
-        <!-- Add Arrows -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-      </div> 
 
-    </div>
-  </div> <!-- end of row -->
+
+      </div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div> 
+
+  </div>
+</div> <!-- end of row -->
 </div> <!-- end of container -->
 </div> <!-- end of discover -->
 
@@ -199,52 +211,52 @@
             <ul class="list-unstyled kembalilagi">
               <li>
                 <div class="col-sm-3 col-md-3 col-xs-2 advantage-icon"><img src="<?php echo $this->common->theme_link(); ?>/images/1.svg" class="respo" width="55" height="55"></div>
-                <div class="advantage-text col-sm-9 col-md-9 col-xs-9"><strong>SURF GUIDING</strong><br/> inclusive, twice a day,every day!</div>
+                <div class="advantage-text col-sm-9 col-md-9 col-xs-9"><strong>Explore Bali</strong><br/> inclusive, twice a weeks,every day!</div>
 
-              </li>        
+              </li>          
               <li>
-                <div class="col-sm-3 col-md-3 col-xs-2"><img src="<?php echo $this->common->theme_link(); ?>/images/1.svg" class="respo" width="55" height="55"></div>
-                <div class="advantage-text col-sm-9 col-md-9 col-xs-9"><strong>SURF GUIDING</strong> <br/>inclusive, twice a day,every day!</div>
+                <div class="col-sm-3 col-md-3 col-xs-2 advantage-icon"><img src="<?php echo $this->common->theme_link(); ?>/images/1.svg" class="respo" width="55" height="55"></div>
+                <div class="advantage-text col-sm-9 col-md-9 col-xs-9"><strong>Explore Bali</strong><br/> inclusive, twice a weeks,every day!</div>
 
-              </li>         
+              </li>            
               <li>
-                <div class="col-sm-3 col-md-3 col-xs-3"><img src="<?php echo $this->common->theme_link(); ?>/images/1.svg" class="respo" width="55" height="55"></div>
-                <div class="advantage-text col-sm-9 col-md-9 col-xs-9"><strong>SURF GUIDING</strong><br/> inclusive, twice a day,every day!</div>
+                <div class="col-sm-3 col-md-3 col-xs-2 advantage-icon"><img src="<?php echo $this->common->theme_link(); ?>/images/1.svg" class="respo" width="55" height="55"></div>
+                <div class="advantage-text col-sm-9 col-md-9 col-xs-9"><strong>Explore Bali</strong><br/> inclusive, twice a weeks,every day!</div>
 
-              </li>
-              
-              
+              </li>       
 
             </ul>
           </div> <div class="col-xs-12 col-sm-6 col-md-6">
-            <ul class="list-unstyled kembalilagi">
-              <li>
-                <div class="col-sm-3 col-md-3 col-xs-3"><img src="<?php echo $this->common->theme_link(); ?>/images/1.svg" class="respo" width="55" height="55"></div>
-                <div class="advantage-text col-sm-9 col-md-9 col-xs-9"><strong>SURF GUIDING</strong><br/>inclusive, twice a day,every day!</div>
+          <ul class="list-unstyled kembalilagi">
+           <li>
+            <div class="col-sm-3 col-md-3 col-xs-2 advantage-icon"><img src="<?php echo $this->common->theme_link(); ?>/images/1.svg" class="respo" width="55" height="55"></div>
+            <div class="advantage-text col-sm-9 col-md-9 col-xs-9"><strong>Explore Bali</strong><br/> inclusive, twice a weeks,every day!</div>
 
-              </li>        
-              <li>
-                <div class="col-sm-3 col-md-3 col-xs-3"><img src="<?php echo $this->common->theme_link(); ?>/images/1.svg" class="respo" width="55" height="55"></div>
-                <div class="advantage-text col-sm-9 col-md-9 col-xs-9"><strong>SURF GUIDING</strong> inclusive, twice a day,every day!</div>
+          </li> 
+          <li>
+            <div class="col-sm-3 col-md-3 col-xs-2 advantage-icon"><img src="<?php echo $this->common->theme_link(); ?>/images/1.svg" class="respo" width="55" height="55"></div>
+            <div class="advantage-text col-sm-9 col-md-9 col-xs-9"><strong>Explore Bali</strong><br/> inclusive, twice a weeks,every day!</div>
 
-              </li>         
-              <li>
-                <div class="col-sm-3 col-md-3 col-xs-3"><img src="<?php echo $this->common->theme_link(); ?>/images/1.svg" class="respo" width="55" height="55"></div>
-                <div class="advantage-text col-sm-9 col-md-9 col-xs-9"><strong>SURF GUIDING</strong> inclusive, twice a day,every day!</div>
+          </li> 
+          <li>
+            <div class="col-sm-3 col-md-3 col-xs-2 advantage-icon"><img src="<?php echo $this->common->theme_link(); ?>/images/1.svg" class="respo" width="55" height="55"></div>
+            <div class="advantage-text col-sm-9 col-md-9 col-xs-9"><strong>Explore Bali</strong><br/> inclusive, twice a weeks,every day!</div>
 
-              </li>
-              
-              
+          </li> 
 
-            </ul>
-          </div>
-         
-        </div>
+
+
+
+
+        </ul>
       </div>
+
     </div>
+  </div>
+</div>
 
 
-  </div> <!-- end of row -->
+</div> <!-- end of row -->
 </div> <!-- end of container -->
 </div> <!-- end of rooms -->
 

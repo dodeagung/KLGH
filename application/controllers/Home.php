@@ -11,12 +11,12 @@ class Home extends CI_Controller
 
 		parent::__construct();
 		if (defined('REQUEST') && REQUEST == "external") {
-	        return;
-	    }
+			return;
+		}
 		$this->template->loadData("activeLink",
 			array("home" => array("general" => 1)));
 
-			$this->load->library('Frontweb');
+		$this->load->library('Frontweb');
 
 	}
 
@@ -46,7 +46,7 @@ class Home extends CI_Controller
 			"sliders" => $sliders,
 			"galleries" => $galleries->result(),
 			"categories" => $categories->result(),
-			));
+		));
 
 	}
 
@@ -64,6 +64,9 @@ class Home extends CI_Controller
 
 		$this->templatefront->loadExternalJS(
 			array('frontpage/js/jsPlugin')
+		);	
+		$this->templatefront->loadExternalCSS(
+			array('frontpage/css/cssPlugin')
 		);		
 		
 		$this->templatefront->loadData("activeLink",array("home" => 1));
@@ -74,7 +77,7 @@ class Home extends CI_Controller
 			"sliders" => $sliders,
 			"galleries" => $galleries->result(),
 			"categories" => $categories->result(),
-			));
+		));
 
 	}
 	
@@ -86,7 +89,7 @@ class Home extends CI_Controller
 		$this->templatefront->loadData("activeLink",array("home" => 1));
 		$this->templatefront->loadContent('frontpage/aboutus_view', array(
 			"posts" => $recentposts->result()
-			) );
+		) );
 	}	
 	
 	public function tos()
@@ -97,7 +100,7 @@ class Home extends CI_Controller
 		$this->templatefront->loadData("activeLink",array("home" => 1));
 		$this->templatefront->loadContent('frontpage/tos_view', array(
 			"posts" => $recentposts->result()
-			) );
+		) );
 	}	
 
 

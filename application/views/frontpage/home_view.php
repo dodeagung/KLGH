@@ -30,7 +30,7 @@
               <li><a href="index.html">SP</a></li>
             </ul>
           </li>
-          <li><a class="scrolling phone-number hidden-xs hidden-sm" href="tel:18003249832"><i class="fa fa-phone" aria-hidden="true"></i> 1-800-324-9832</a></li>
+          <li><a class="scrolling phone-number hidden-xs hidden-sm" href="tel:+6287822063853"><i class="fa fa-phone" aria-hidden="true"></i> +62-878-220-63853</a></li>
         </ul>
       </div>
 
@@ -258,7 +258,7 @@
   
   
   
-  
+  <li><a class="scrolling phone-number hidden-xs hidden-sm" href="tel:+6287822063853"><i class="fa fa-phone" aria-hidden="true"></i> +62-878-220-63853</a></li>
   
   
   <!-- CONTACT -->
@@ -270,10 +270,10 @@
           <h2>Location Information</h2>
           <p class="above-list">Don't hesitate to use the form our contact details to get in touch.:</p>
           <ul class="list-unstyled list-inline">
-            <li><i class="fa fa-map-marker" aria-hidden="true"></i>Afitos 63077, Greece</li>
-            <li><i class="fa fa-phone" aria-hidden="true"></i><a class="phone-number" href="tel:18003249832">+30 2463 082500</a></li>
-            <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:contact@villa.com">contact@villa.com</a></li>
-            <li><i class="fa fa-chrome" aria-hidden="true"></i><a href="#your-link">www.villa.com</a></li>
+            <li><i class="fa fa-map-marker" aria-hidden="true"></i>Kembali Lagi Guest House</li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i><a class="phone-number" href="tel:+6287822063853">+62-878-220-63853</a></li>
+            <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:contact@villa.com">info@kembalilagi.com</a></li>
+            <li><i class="fa fa-chrome" aria-hidden="true"></i><a href="#your-link">www.kembalilagi.com</a></li>
           </ul>
         </div>
         <div class="col-md-6">

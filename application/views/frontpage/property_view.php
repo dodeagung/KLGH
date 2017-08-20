@@ -18,7 +18,7 @@
         <ul class="nav navbar-nav">
           <li class="active"><a class="page-scroll" href="#subheader">BOOK US</a></li>
           <li><a class="page-scroll" href="#rooms">Our Room</a></li>
-          <li><a class="page-scroll" href="#discover">Discover!</a></li>
+          <li><a class="page-scroll" href="#video">Discover!</a></li>
           <li><a class="page-scroll" href="#services">Service</a></li>
           <li><a class="page-scroll" href="#comment">Comment</a></li>
           <li><a class="page-scroll" href="#explorebali">Explore Bali</a></li>
@@ -33,7 +33,7 @@
               <li><a href="index.html">SP</a></li>
             </ul>
           </li>
-          <li><a class="scrolling phone-number hidden-xs hidden-sm" href="tel:18003249832"><i class="fa fa-phone" aria-hidden="true"></i> 1-800-324-9832</a></li>
+          <li><a class="scrolling phone-number hidden-xs hidden-sm" href="tel:+6287822063853"><i class="fa fa-phone" aria-hidden="true"></i> +62-878-220-63853</a></li>
         </ul>
       </div>
 
@@ -222,7 +222,9 @@
           <p>
             Brief Video Below
           </p>
-          <a href="https://www.youtube.com/watch?v=tY9o31WekjQ" class="video_pop"><i class="fa fa-play-circle fa-2x"></i></a>
+          <a href="https://www.youtube.com/watch?v=tY9o31WekjQ" class="video_pop">
+            <i class="fa fa-play-circle fa-2x"></i>
+          </a>
         </div>
       </div>
     </div>
@@ -283,8 +285,8 @@
 
     </div>
   </div>
-  </div>
-  </div> 
+</div>
+</div> 
 </div> 
 <div id="facilities">
   <div class="container">
@@ -384,7 +386,52 @@
   <div class="row">
     <button title="Close (Esc)" type="button" class="mfp-close ">x</button>
     <div class="col-md-8">
-      <img class="img-responsive" src="<?php echo $this->common->theme_link(); ?>images/room-1-image-details.jpg" alt="speakers image">
+     <!-- LAGER IMGAE -->
+                            <div class="room-detail_img">
+                                <div class="room_img-item">
+                                    <img src="<?php echo $this->common->theme_link(); ?>/images/room/detail/lager/img-1.jpg" alt="">    
+                                    <h6>test Dode Lorem Ipsum is simply dummy text of the printing and typesetting industry</h6>
+                                </div>
+                                <div class="room_img-item">
+                                    <img src="<?php echo $this->common->theme_link(); ?>/images/room/detail/lager/img-2.jpg" alt="">    
+                                    <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h6>
+                                </div>
+                                <div class="room_img-item">
+                                    <img src="<?php echo $this->common->theme_link(); ?>/images/room/detail/lager/img-3.jpg" alt="">    
+                                    <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h6>
+                                </div>
+                                <div class="room_img-item">
+                                    <img src="<?php echo $this->common->theme_link(); ?>/images/room/detail/lager/img-5.jpg" alt="">    
+                                    <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h6>
+                                </div>
+                                <div class="room_img-item">
+                                    <img src="<?php echo $this->common->theme_link(); ?>/images/room/detail/lager/img-6.jpg" alt="">    
+                                    <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h6>
+                                </div>
+                                <div class="room_img-item">
+                                    <img src="<?php echo $this->common->theme_link(); ?>/images/room/detail/lager/img-7.jpg" alt="">    
+                                    <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h6>
+                                </div>
+                                <div class="room_img-item">
+                                    <img src="<?php echo $this->common->theme_link(); ?>/images/room/detail/lager/img-5.jpg" alt="">    
+                                    <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h6>
+                                </div>
+                            </div>
+                            <!-- END / LAGER IMGAE -->
+                            
+                            <!-- THUMBNAIL IMAGE -->
+                            <div class="room-detail_thumbs">
+                                <a href="#"><img src="<?php echo $this->common->theme_link(); ?>/images/room/detail/img-2.jpg" alt=""></a>
+                                <a href="#"><img src="<?php echo $this->common->theme_link(); ?>/images/room/detail/img-3.jpg" alt=""></a>
+                                <a href="#"><img src="<?php echo $this->common->theme_link(); ?>/images/room/detail/img-4.jpg" alt=""></a>
+                                <a href="#"><img src="<?php echo $this->common->theme_link(); ?>/images/room/detail/img-5.jpg" alt=""></a>
+                                <a href="#"><img src="<?php echo $this->common->theme_link(); ?>/images/room/detail/img-6.jpg" alt=""></a>
+                                <a href="#"><img src="<?php echo $this->common->theme_link(); ?>/images/room/detail/img-7.jpg" alt=""></a>
+                                <a href="#"><img src="<?php echo $this->common->theme_link(); ?>/images/room/detail/img-8.jpg" alt=""></a>
+                                <a href="#"><img src="<?php echo $this->common->theme_link(); ?>/images/room/detail/img-6.jpg" alt=""></a>
+                            </div>
+                            <!-- END / THUMBNAIL IMAGE -->
+
     </div>
     <div class="col-md-4">
       <h3>Balcony Room</h3>
@@ -448,7 +495,65 @@
 </div> <!-- end of magnific popup rooms details content -->
 
 
-
+<div id="testimonials">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div id="quote" class="carousel slide" data-ride="carousel" data-interval="4000">
+            <ol class="carousel-indicators">
+              <li data-target="#quote" data-slide-to="0" class=""></li>
+              <li data-target="#quote" data-slide-to="1" class="active"></li>
+              <li data-target="#quote" data-slide-to="2" class=""></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              <div class="item">
+                <div class="col-md-4">
+                  <p class="mb-0">"Our stay at Villa was amazing. I didn't think this part of the world can be so beautiful. Looking forward to return with my partner"</p>
+                  <p><strong>Mary Fitzgerald</strong> - <span class="rating-stars">★ ★ ★ ★ ★</span></p>
+                </div>
+                <div class="col-md-4">
+                  <p class="mb-0">"Amazing experience! Loved the villa and its surroundings but I was especially impressed by the beautiful beaches you can find nearby"</p>
+                  <p><strong>John Frown</strong> - <span class="rating-stars">★ ★ ★ ★ ★</span></p>
+                </div>
+                <div class="col-md-4">
+                  <p class="mb-0">"WOW! I just can't find the words to describe our experience. The staff was great, rooms were very clean and the food... delicious"</p>
+                  <p><strong>Mike Town</strong> - <span class="rating-stars">★ ★ ★ ★ ★</span></p>
+                </div>
+              </div>
+              <div class="item active">
+                <div class="col-md-4">
+                  <p class="mb-0">"So many ways to have fun. You never get bored. You can relax at the beach or have fun in the old town. Everything for everyone"</p>
+                  <p><strong>Judy Smithfield</strong> - <span class="rating-stars">★ ★ ★ ★ ★</span></p>
+                </div>
+                <div class="col-md-4">
+                  <p class="mb-0">"I came together with my parents and was able to offer them the best vacation they ever had. I will return with my husband next year"</p>
+                  <p><strong>Ruben May</strong> - <span class="rating-stars">★ ★ ★ ★ ★</span></p>
+                </div>
+                <div class="col-md-4">
+                  <p class="mb-0">"Definitely worth the price. The services are of the highest quality, staff is very friendly and I only regret I couldn't stay longer"</p>
+                  <p><strong>Sully McLane</strong> - <span class="rating-stars">★ ★ ★ ★ ★</span></p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="col-md-4">
+                  <p class="mb-0">"If you love good food, nice music and gorgeous beaches then Villa will be the perfect vacation spot for you. I loved it"</p>
+                  <p><strong>Ron Blake</strong> - <span class="rating-stars">★ ★ ★ ★ ★</span></p>
+                </div>
+                <div class="col-md-4">
+                  <p class="mb-0">"My kids absolutely loved Villa because of the well designed and safe playground. But grownups had a great time too"</p>
+                  <p><strong>Paula Jerry</strong> - <span class="rating-stars">★ ★ ★ ★ ★</span></p>
+                </div>
+                <div class="col-md-4">
+                  <p class="mb-0">"Villa is great! It has everything you could ask for at affordable prices. Except the Presidential Room which is, well... presidential :)"</p>
+                  <p><strong>Simone Finley</strong> - <span class="rating-stars">★ ★ ★ ★ ★</span></p>
+                </div>
+              </div>
+            </div>
+          </div> <!-- end of quote -->
+        </div> <!-- end of col-md-12 -->
+      </div> <!-- end of row -->
+    </div> <!-- end of container -->
+  </div>
 
 
 
@@ -461,15 +566,16 @@
         <h2>Location Information</h2>
         <p class="above-list">Don't hesitate to use the form our contact details to get in touch.:</p>
         <ul class="list-unstyled list-inline">
-          <li><i class="fa fa-map-marker" aria-hidden="true"></i>Afitos 63077, Greece</li>
-          <li><i class="fa fa-phone" aria-hidden="true"></i><a class="phone-number" href="tel:18003249832">+30 2463 082500</a></li>
-          <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:contact@villa.com">contact@villa.com</a></li>
-          <li><i class="fa fa-chrome" aria-hidden="true"></i><a href="#your-link">www.villa.com</a></li>
+          <li><i class="fa fa-map-marker" aria-hidden="true"></i>Kembali Lagi Guest House</li>
+          <li><i class="fa fa-phone" aria-hidden="true"></i><a class="phone-number" href="tel:+6287822063853">+62-878-220-63853</a></li>
+          <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:contact@villa.com">info@kembalilagi.com</a></li>
+          <li><i class="fa fa-chrome" aria-hidden="true"></i><a href="#your-link">www.kembalilagi.com</a></li>
         </ul>
       </div>
+
       <div class="col-md-6">
         <div class="map-responsive">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3052.102620883462!2d23.437024315180963!3d40.09542488304202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a62a7bde3a7915%3A0xe08ece688ab0e3fb!2sAegean+Blue+Studios!5e0!3m2!1sen!2sro!4v1494660917249" allowfullscreen></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.9313690497684!2d115.25742631420614!3d-8.698067793750852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd241b807d27dbb%3A0xe6380859a7503a79!2sKembali+Lagi+Guest+House!5e0!3m2!1sen!2sid!4v1503201752224" allowfullscreen></iframe>
         </div>
       </div>
       <div class="col-md-6">

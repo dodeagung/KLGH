@@ -108,7 +108,7 @@
 		}
 
 		.layercolor{
-			background-color: rgba(33, 186, 163, 0.5);
+			background-color: rgba(33, 186, 163, 0.35);
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -201,10 +201,27 @@
 			color: #0B566E;
 			border-color: #0B566E;
 		}
-
+	
 		.owl-controls .owl-page, .owl-controls .owl-buttons div {
 			cursor: pointer;
 		}
+
+				/*map Bali*/
+		.svgBali{
+			height: 100%!important;
+			position: relative;
+		}
+		#svg2{
+			width: 700px;
+		}
+
+		#klungkung:hover *, #denpasar:hover *,#negara:hover *,
+		#buleleng:hover *,#tabanan:hover *,#karangasem:hover *,
+		#gianyar:hover *,#bangli:hover *,#badung:hover *{
+			fill:#21BAA3;
+			cursor: pointer;
+		}
+		
 
 		/* Min-width width 480px */
 		@media only screen and (max-width: 480px) {
@@ -227,7 +244,6 @@
 				vertical-align: middle!important;
 				line-height: 50px!important;
 				margin: 10px;
-				/*font-size: 2px;*/
 			}
 			.advandage-icon{
 				padding:  0px;
@@ -238,6 +254,9 @@
 			.list-unstyled.kembalilagi li .list-text {
 				display: inline;
 
+			}
+			#svg2{
+				width: 100%;
 			}
 
 		}

@@ -80,6 +80,22 @@ class Home extends CI_Controller
 		));
 
 	}
+
+	public function explore($idcity=null)
+	{
+$this->load->model('content_model');
+		$this->templatefront->loadExternalJS(
+			array('frontpage/js/jsPlugin')
+		);	
+		$this->templatefront->loadExternalCSS(
+			array('frontpage/css/cssPlugin')
+		);		
+		
+		$this->templatefront->loadData("activeLink",array("home" => 1));
+
+		$this->templatefront->loadContent('frontpage/explore_view');
+
+	}
 	
 	public function about()
 	{

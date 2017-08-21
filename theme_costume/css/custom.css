@@ -175,6 +175,25 @@
 			-ms-transition: all .2s ease;
 			-o-transition: all .2s ease;
 		}
+		.room-detail_img .room_img-item {
+			position: relative;
+		}
+		.room-detail_img .room_img-item h6 {
+			background-color: rgba(33, 186, 163, 0.6);
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			font-size: 13px;
+			color: #fff;
+			padding: 15px 20px;
+			margin-bottom: 0px;
+		}
+		.owl-carousel .owl-wrapper-outer {
+			overflow: hidden;
+			position: relative;
+			width: 100%;
+		}
 		.owl-controls .owl-next {
 			right: 10px;
 		}

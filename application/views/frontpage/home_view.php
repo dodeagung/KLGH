@@ -187,80 +187,7 @@
     </div> <!-- end of container -->
   </div> <!-- end of rooms -->
   
-  <!-- Magnific Popup Rooms Details Content -->
-  <!-- mfp-hide class is required to keep the content hidden until the visitor clicks the button -->
-  <div id="room-1" class="room-details-container zoom-anim-dialog mfp-hide">
-    <div class="row">
-      <button title="Close (Esc)" type="button" class="mfp-close x-button">x</button>
-      <div class="col-md-8">
-        <img class="img-responsive" src="<?php echo $this->common->theme_link(); ?>images/room-1-image-details.jpg" alt="speakers image">
-      </div>
-      <div class="col-md-4">
-        <h3>Balcony Room</h3>
-        <hr>
-        <h4>$59/day</h4>
-        <p>Each of Villa's rooms was designed to offer the best possible experience for many types of travelers from the adventure seekers to those who value comfort.</p>
-        <ul class="list-unstyled">
-          <li><i class="fa fa-wifi"></i><span>Free Wi-Fi</span></li>
-          <li><i class="fa fa-bath"></i>Private bathrooms,</li>
-          <li><i class="fa fa-tablet"></i>Cabinet fridge,</li>
-          <li><i class="fa fa-tv"></i>Widescreen LCD,</li>
-          <li><i class="fa fa-snowflake-o"></i>Air conditioning,</li>
-        </ul>
-        <a class="button outline mfp-close as-button" href="#rooms">BACK</a>&nbsp; <a class="button solid mfp-close as-button page-scroll" href="#header">BOOK NOW</a>
-      </div>
-    </div>
-  </div> 
-  <div id="room-2" class="room-details-container zoom-anim-dialog mfp-hide">
-    <div class="row">
-      <button title="Close (Esc)" type="button" class="mfp-close">x</button>
-      <div class="col-md-8">
-        <img class="img-responsive" src="<?php echo $this->common->theme_link(); ?>images/room-2-image-details.jpg" alt="speakers image">
-      </div>
-      <div class="col-md-4">
-        <h3>Panormaic Room</h3>
-        <hr>
-        <h4>$89/day</h4>
-        <p>Each of Villa's rooms was designed to offer the best possible experience for many types of travelers from the adventure seekers to those who value comfort.</p>
-        <ul class="list-unstyled">
-          <li><i class="fa fa-wifi"></i>Free Wi-Fi,</li>
-          <li><i class="fa fa-bath"></i>Private bathrooms,</li>
-          <li><i class="fa fa-tablet"></i>Cabinet fridge,</li>
-          <li><i class="fa fa-tv"></i>Widescreen LCD,</li>
-          <li><i class="fa fa-snowflake-o"></i>Air conditioning,</li>
-        </ul>
-        <a class="button outline mfp-close as-button" href="#rooms">BACK</a>&nbsp; <a class="button solid mfp-close as-button page-scroll" href="#header">BOOK NOW</a>
-      </div>
-    </div>
-  </div>
-  <div id="room-3" class="room-details-container zoom-anim-dialog mfp-hide">
-    <div class="row">
-      <button title="Close (Esc)" type="button" class="mfp-close">x</button>
-      <div class="col-md-8">
-        <img class="img-responsive" src="<?php echo $this->common->theme_link(); ?>images/room-3-image-details.jpg" alt="speakers image">
-      </div>
-      <div class="col-md-4">
-        <h3>Presidential Room</h3>
-        <hr>
-        <h4>$129/day</h4>
-        <p>Each of Villa's rooms was designed to offer the best possible experience for many types of travelers from the adventure seekers to those who value comfort.</p>
-        <ul class="list-unstyled">
-          <li><i class="fa fa-wifi"></i>Free Wi-Fi,</li>
-          <li><i class="fa fa-bath"></i>Private bathrooms,</li>
-          <li><i class="fa fa-tablet"></i>Cabinet fridge,</li>
-          <li><i class="fa fa-tv"></i>Widescreen LCD,</li>
-          <li><i class="fa fa-snowflake-o"></i>Air conditioning,</li>
-        </ul>
-        <a class="button outline mfp-close as-button" href="#rooms">BACK</a>&nbsp; <a class="button solid mfp-close as-button page-scroll" href="#header">BOOK NOW</a>
-      </div>
-    </div>
-  </div> <!-- end of magnific popup rooms details content -->
-  
-  
-  
-  <li><a class="scrolling phone-number hidden-xs hidden-sm" href="tel:+6287822063853"><i class="fa fa-phone" aria-hidden="true"></i> +62-878-220-63853</a></li>
-  
-  
+    
   <!-- CONTACT -->
   <div id="contact">
     <div class="container">
@@ -278,7 +205,7 @@
         </div>
         <div class="col-md-6">
           <div class="map-responsive">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3052.102620883462!2d23.437024315180963!3d40.09542488304202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a62a7bde3a7915%3A0xe08ece688ab0e3fb!2sAegean+Blue+Studios!5e0!3m2!1sen!2sro!4v1494660917249" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.9313690497684!2d115.25742631420614!3d-8.698067793750852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd241b807d27dbb%3A0xe6380859a7503a79!2sKembali+Lagi+Guest+House!5e0!3m2!1sen!2sid!4v1503201752224" allowfullscreen></iframe>
           </div>
         </div>
         <div class="col-md-6">
